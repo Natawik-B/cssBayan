@@ -20,7 +20,7 @@ body {
   line-height: 2rem;
 }
 .css-bayan {
-  width: 100vw;
+  width: 40vw;
   height: 100vh;
   margin: 0 auto;
   display: flex;
@@ -135,9 +135,8 @@ to { opacity: 1 }
     filter: brightness(0) saturate(100%) invert(54%) sepia(32%) saturate(1334%) hue-rotate(188deg) brightness(103%) contrast(86%); /*colorBlue*/
   }
   .css-bayan:hover .content-btn-img {
-    opacity: 1;
+    width: 0.8rem;
     height: 0.8rem;
-    transition: all 0.7s ease-in-out;
   }
   .css-bayan-content:hover .content-img,
   .bayan-input:hover ~ .content-img {
